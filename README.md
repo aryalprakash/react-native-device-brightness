@@ -2,6 +2,14 @@
 
 [![npm version](https://badge.fury.io/js/%40adrianso%2Freact-native-device-brightness.svg)](https://badge.fury.io/js/%40adrianso%2Freact-native-device-brightness)
 
+This fork resolves this issue:
+
+`Execution failed for task ':app:processDebugResources'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
+   > Android resource linking failed
+     ../android/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml:56: AAPT: error: attribute android:requestLegacyExternalStorage not found.
+`
+
 This is a native module for React Native to control the screen brightness.
 
 It is a fork of https://github.com/Calvin-Huang/react-native-device-brightness, and has added the following features:
